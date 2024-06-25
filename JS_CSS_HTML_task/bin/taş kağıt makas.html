@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oyna!</title>
+    
+
+    <style>
+
+    </style>
+    <script>
+        console.log("naber");
+        function rock(){
+            console.log("çalışıyor");
+        }
+
+
+
+
+    </script>
+</head>
+
+<body>
+    <div>
+        <table id="game" border="3">
+            <th colspan="3" class="game ">TAŞ KAĞIT MAKAS!</th>
+            <tr>
+                <th colspan="3">SEÇİMİNİ YAP</th>
+            </tr>
+
+            <tr>
+
+                <td><button onclick="rock()"><img src="rock.png" alt="" width="200" height="200"></button></td>
+                <td><button onclick=""><img src="paper-200x187.png" alt="" width="200" height="200"></button></td>
+                <td><button onclick=""><img src="scissors.png" alt="" width="200" height="200"></button></td>
+
+            </tr>
+            <tr>
+                <th>Sizin Seçiminiz</th>
+                <th>Bilgisayarın Seçimi</th>
+                <th>Kazanan!!</th>
+
+            </tr>
+            <tr>
+                <td id="PlayerChoose"></td>
+                <td id="ComputerChoose"></td>
+                <td id="winner"></td>
+            </tr>
+
+
+        </table>
+    </div>
+    
+</body>
+
+</html>

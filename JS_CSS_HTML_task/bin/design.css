@@ -1,0 +1,123 @@
+th {
+    background-color: yellow;
+}
+
+table {
+    background-color: rgb(236, 234, 234);
+}
+
+.navbar {
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    
+
+}
+
+.custom-bg {
+    background-color: rgb(18, 44, 77);
+    color: beige;
+}
+body {
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+    }
+
+    .navbar {
+        margin-top: 0;
+        padding-top: 0;
+        margin-bottom: 0;
+        padding-bottom: 0;
+
+    }
+
+    .StartingPoint {
+        background-color: rgb(3, 122, 104);
+        width: 100vw;
+        /* Sayfanın tam genişliğini alır */
+        height: 100vh;
+        /* Sayfanın tam yüksekliğini alır */
+        justify-content: center;
+        align-items: center;
+        display: flex;
+
+
+
+    }
+
+    .custom-bg {
+        background-color: rgb(18, 44, 77);
+    }
+
+    .text-color {
+        color: rgb(216, 228, 216);
+    }
+
+    navbar-brand,
+    .nav-link {
+        color: white;
+        transition: color 0.3s, background-color 0.3s;
+        /* Renk değişimini yumuşak bir şekilde yapmak için geçiş efekti ekledik */
+        padding: 0.5rem 1rem;
+        /* Daha belirgin bir alan oluşturmak için padding ekledik */
+        border-radius: 0.25rem;
+        /* Köşeleri yuvarlamak için border-radius ekledik */
+    }
+
+
+    .navbar-brand:hover,
+    .nav-link:hover {
+        color: rgb(216, 228, 216);
+    }
+
+    .nav-item:hover {
+        background-color: rgb(3, 122, 104);
+        /* Mouse üzerine gelindiğinde linkin etrafındaki kutucuğun rengini değiştiriyoruz */
+        transition: color 0.3s, background-color 0.3s;
+        /* Renk değişimini yumuşak bir şekilde yapmak için geçiş efekti ekledik */
+
+        border-radius: 0.25rem;
+        /* Köşeleri yuvarlamak için border-radius ekledik */
+    }
+
+    .starterButton {
+
+        padding: 50px;
+
+        width: fit-content;
+        background-color: rgb(18, 44, 77);
+        text-decoration: solid;
+        color: rgb(216, 228, 216);
+
+
+    }
+
+    .starterButton:hover {
+        background-color: rgb(0, 54, 46);
+    }
+
+    @keyframes example {
+        0% {
+            background-color: rgb(209, 5, 5);
+        }
+
+        25% {
+            background-color: rgb(253, 253, 253);
+        }
+
+        50% {
+            background-color: rgb(29, 29, 94);
+        }
+
+        100% {
+            background-color: rgb(0, 0, 0);
+        }
+
+    }
+
+    .animate {
+        animation: example 4s infinite;
+
+    }

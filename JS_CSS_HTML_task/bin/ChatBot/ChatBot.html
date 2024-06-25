@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GG ChatBOT</title>
+    <script src="GGbot.js"> </script>
+</head>
+<style>
+    .ChatTable{
+        height: 700px;
+       
+    }
+    .text
+    {
+        height: 600px;
+        width: 850px;
+
+    }
+    .Chat{
+        width: 600px;
+        
+    }
+    .Send{
+        align-items: start;
+    }
+    .inputs{
+        height: 95px;
+    }
+
+</style>
+
+<body>
+    <table class="ChatTable" border="5">
+        <tr class="Text">
+            <td id="BotAnswer"> Merhaba Bugün nasılsınız?</td>
+            <td id="UserText"></td>
+        </tr>
+        <tr class="inputs">
+            <td>
+                <input id="Chat" class="Chat" type="text">
+
+            </td>
+            <td class="Send">
+                <button id="Send" onclick="sent()" >Gönder</button>
+            </td>
+        </tr>
+    </table>
+
+
+</body>
+
+</html>

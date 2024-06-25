@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+<style>
+    th {
+        background-color: rgb(18, 44, 77);
+        color: beige;
+        text-align: center;
+    }
+
+    table {
+        background-color: rgb(236, 234, 234);
+    }
+
+    .navbar {
+        margin-top: 0;
+        padding-top: 0;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        
+
+    }
+
+    .custom-bg {
+        background-color: rgb(18, 44, 77);
+        color: beige;
+    }
+    body {
+            width: 100%;
+            height: 100%;
+            overflow-x: hidden;
+        }
+
+        .navbar {
+            margin-top: 0;
+            padding-top: 0;
+            margin-bottom: 0;
+            padding-bottom: 0;
+
+        }
+
+        .StartingPoint {
+            background-color: rgb(3, 122, 104);
+            width: 100vw;
+            /* Sayfanın tam genişliğini alır */
+            height: 100vh;
+            /* Sayfanın tam yüksekliğini alır */
+            justify-content: center;
+            align-items: center;
+            display: flex;
+
+
+
+        }
+
+        .custom-bg {
+            background-color: rgb(18, 44, 77);
+        }
+
+        .text-color {
+            color: rgb(216, 228, 216);
+        }
+
+        navbar-brand,
+        .nav-link {
+            color: white;
+            transition: color 0.3s, background-color 0.3s;
+            /* Renk değişimini yumuşak bir şekilde yapmak için geçiş efekti ekledik */
+            padding: 0.5rem 1rem;
+            /* Daha belirgin bir alan oluşturmak için padding ekledik */
+            border-radius: 0.25rem;
+            /* Köşeleri yuvarlamak için border-radius ekledik */
+        }
+
+
+        .navbar-brand:hover,
+        .nav-link:hover {
+            color: rgb(216, 228, 216);
+        }
+
+        .nav-item:hover {
+            background-color: rgb(3, 122, 104);
+            /* Mouse üzerine gelindiğinde linkin etrafındaki kutucuğun rengini değiştiriyoruz */
+            transition: color 0.3s, background-color 0.3s;
+            /* Renk değişimini yumuşak bir şekilde yapmak için geçiş efekti ekledik */
+
+            border-radius: 0.25rem;
+            /* Köşeleri yuvarlamak için border-radius ekledik */
+        }
+
+        .starterButton {
+
+            padding: 50px;
+
+            width: fit-content;
+            background-color: rgb(18, 44, 77);
+            text-decoration: solid;
+            color: rgb(216, 228, 216);
+
+
+        }
+
+        .starterButton:hover {
+            background-color: rgb(0, 54, 46);
+        }
+
+        @keyframes example {
+            0% {
+                background-color: rgb(209, 5, 5);
+            }
+
+            25% {
+                background-color: rgb(253, 253, 253);
+            }
+
+            50% {
+                background-color: rgb(29, 29, 94);
+            }
+
+            100% {
+                background-color: rgb(0, 0, 0);
+            }
+
+        }
+
+        .animate {
+            animation: example 4s infinite;
+
+        }
+    
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+        <div class="container-fluid custom-bg ">
+            <a class="navbar-brand text-color nav-item" href="../GG_giriş.html">Anasayfa</a>
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-color">
+
+                    <li class="nav-item">
+                        <a class="nav-link text-color" href="#">İletişim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-color" href="GG_calismalar.html">Çalışmalar</a>
+                    </li>
+                   
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <table border="2">
+        <th colspan="2" border="5">İletişim Bilgileri</th>
+        <tr>
+
+            <td>Ad Soyad:</td>
+            <td>Göksel Gökcen</td>
+            <td rowspan="3"><img src="GGphoto.png" alt="" width="150" height="200"></td>
+        </tr>
+        <tr>
+            <td>GSM:</td>
+            <td>+90 536 919 3313</td>
+        </tr>
+        <tr>
+            <td>E-Mail:</td>
+            <td>goksel.gokcen0@gmail.com</td>
+        </tr>
+
+        <th colspan="2">Eğitim Geçmişi</th>
+
+        <tr>
+            <td>İzmir Türk Koleji</td>
+            <td>Lise</td>
+        </tr>
+
+        <tr>
+            <td>İhsan Doğramacı Bilkent Üniversitesi</td>
+            <td>İngilizce Hazırlık 2020-2022</td>
+        </tr>
+
+        <tr>
+            <td>Akdeniz Üniversitesi</td>
+            <td>Yönetim Bilişim Sistemleri 2022-(devam etmekte)</td>
+        </tr>
+        <th colspan="2">Beceriler</th>
+        <tr>
+            <td>HTML</td>
+        </tr>
+        <tr>
+            <td>CSS</td>
+        </tr>
+        <tr>
+            <td>JavaScript</td>
+        </tr>
+        <tr>
+            <td>C# OOP</td>
+        </tr>
+        <tr>
+            <td>ASP.NET</td>
+        </tr>
+        <tr>
+            <td>SPSS</td>
+        </tr>
+
+        <tr>
+            <td>Dil Bilgisi:</td>
+            <td><a href="IELTSresult.pdf"> IELTS Academic 6.0</a></td>
+        </tr>
+
+        <th colspan="2">İlgi Alanları</th>
+        <tr>
+            <td>Yapay Zeka</td>
+            <td>Web Sitesi Geliştirme</td>
+        </tr>
+
+        <tr>
+            <td>Data Analizi</td>
+            <td>Makine Öğrenmesi</td>
+        </tr>
+
+        <th colspan="2">Hakkımda</th>
+        <tr>
+            <td colspan="2">
+                Merhaba,
+
+                Ben Göksel Gökcen, Akdeniz Üniversitesi'nde Yönetim Bilişim Sistemleri okuyan bir öğrenciyim. Şu anda
+                web tasarımıyla ilgileniyorum
+                . Ancak, ilgimi çeken bir diğer konu ise yapay zeka. Yaz
+                boyunca yapay zekanın temeli olan lineer cebir ve kalkülüs ile matematik temelimi güçlendirmeyi ve yapay
+                zeka alanında kendimi geliştirmeye başlamayı hedefliyorum.
+
+                Deneyimim ve yeteneklerim arasında problem çözme becerileri, iletişim yeteneği ve öğrenmeye açık olma
+                gibi unsurlar bulunmaktadır. Öğrenme sürecimde sürekli ilerlemeyi ve kendimi geliştirmeyi önemsiyorum.
+                Gelecekteki kariyer hedeflerim arasında yapay zeka ve bu alanda yenilikçi projelere katılmak
+                bulunmaktadır.
+
+                Ayrıca, ekip çalışmasına inanıyorum ve farklı disiplinlerden insanlarla bir araya gelerek ortak
+                hedeflere ulaşmayı önemsiyorum.
+            </td>
+        </tr>
+
+
+
+    </table>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

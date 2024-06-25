@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Çalışmalar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <style>
+        body {
+            width: 100%;
+            height: 100%;
+            overflow-x: hidden;
+
+        }
+
+        .navbar {
+            margin-top: 0;
+            padding-top: 0;
+            margin-bottom: 0;
+            padding-bottom: 0;
+
+        }
+
+        .StartingPoint {
+            /* background-color: rgb(3, 122, 104); */
+            background-image: url(matrix.gif);
+            background-size: cover;
+            /* Arkaplanın ekran boyutuna otomatik olarak uyum sağlamasını sağlar */
+            background-repeat: no-repeat;
+            /* Arkaplanın tekrar etmesini engeller */
+            background-attachment: fixed;
+            /* Sayfanın scroll edilmesiyle arkaplanın sabit kalmasını sağlar */
+            width: 100vw;
+
+            height: 100vh;
+
+            justify-content: center;
+            align-items: center;
+            display: flex;
+
+
+
+        }
+
+        .custom-bg {
+            background-color: rgb(18, 44, 77);
+        }
+
+        .text-color {
+            color: rgb(216, 228, 216);
+        }
+
+        navbar-brand,
+        .nav-link {
+            color: white;
+            transition: color 0.3s, background-color 0.3s;
+            /* Renk değişimini yumuşak bir şekilde yapmak için geçiş efekti ekledik */
+            padding: 0.5rem 1rem;
+            /* Daha belirgin bir alan oluşturmak için padding ekledik */
+            border-radius: 0.25rem;
+            /* Köşeleri yuvarlamak için border-radius ekledik */
+        }
+
+
+        .navbar-brand:hover,
+        .nav-link:hover {
+            color: rgb(216, 228, 216);
+        }
+
+        .nav-item:hover {
+            background-color: rgb(3, 122, 104);
+            /* Mouse üzerine gelindiğinde linkin etrafındaki kutucuğun rengini değiştiriyoruz */
+            transition: color 0.3s, background-color 0.3s;
+            /* Renk değişimini yumuşak bir şekilde yapmak için geçiş efekti ekledik */
+
+            border-radius: 0.25rem;
+            /* Köşeleri yuvarlamak için border-radius ekledik */
+        }
+
+        .GoButton1 {
+
+            padding: 50px;
+            margin-right: 50px;
+
+            width: fit-content;
+            background-color: rgb(18, 44, 77);
+            text-decoration: solid;
+            color: rgb(216, 228, 216);
+
+
+        }
+
+        .GoButton1:hover {
+            background-color: rgb(0, 54, 46);
+            background-image: url(cv.gif);
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: transparent;
+            /*yazıyı transparan yaptım*/
+        }
+
+        .GoButton2 {
+
+            padding: 50px;
+            margin-right: 50px;
+
+            width: fit-content;
+            background-color: rgb(18, 44, 77);
+            text-decoration: solid;
+            color: rgb(216, 228, 216);
+
+
+        }
+
+        .GoButton2:hover {
+            background-color: rgb(0, 54, 46);
+            background-image: url(game.gif);
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: transparent;
+        }
+
+        .GoButton3 {
+
+            padding: 50px;
+            margin-right: 50px;
+
+            width: fit-content;
+            background-color: rgb(18, 44, 77);
+            text-decoration: solid;
+            color: rgb(216, 228, 216);
+
+
+        }
+
+        .GoButton3:hover {
+            background-color: rgb(0, 54, 46);
+            background-image: url(webpage.gif);
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: transparent;
+        }
+
+        .GoButton4 {
+
+            padding: 50px;
+            margin-right: 50px;
+
+            width: fit-content;
+            background-color: rgb(18, 44, 77);
+            text-decoration: solid;
+            color: rgb(216, 228, 216);
+
+
+        }
+
+        .GoButton4:hover {
+            background-color: rgb(0, 54, 46);
+            background-image: url(chat.gif);
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: transparent;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+            <div class="container-fluid custom-bg text-color">
+                <a class="navbar-brand text-color nav-item" href="../GG_giriş.html">Anasayfa</a>
+                <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-color">
+
+                        <li class="nav-item">
+                            <a class="nav-link text-color" href="iletisim.html">İletişim</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-color" href="GG_calismalar.html">Çalışmalar</a>
+                        </li>
+
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+    </div>
+    <script>
+        function GoCV() {
+            window.location.href = "CVpage.html"
+
+        }
+        function GoGame() {
+            window.location.href = "Taş kağıt makas/taşkağıt.html"
+
+        }
+        function GoGokcen() {
+            window.location.href = "gokcentarım/gokcentarim.html"
+
+        }
+        function GoChatBot(){
+            window.location.href = "ChatBot/ChatBot.html"
+        }
+    </script>
+
+
+    <div class="StartingPoint">
+        <button class="GoButton1" onclick="GoCV()">CV'ye Git</button>
+        <button class="GoButton2" onclick="GoGame()">Taş Kağıt Makas Oyunu</button>
+        <button class="GoButton3" onclick="GoGokcen()">Örnek Web Sitesi Anasayfası</button>
+        <button class="GoButton4" onclick="GoChatBot()">ChatBot</button>
+    </div>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim Bilgileri</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        th {
+            background-color: rgb(18, 44, 77);
+            color: beige;
+            text-align: center;
+        }
+
+        table {
+            background-color: rgb(236, 234, 234);
+        }
+
+        .navbar {
+            margin-top: 0;
+            padding-top: 0;
+            margin-bottom: 0;
+            padding-bottom: 0;
+
+
+        }
+
+        .custom-bg {
+            background-color: rgb(18, 44, 77);
+            color: beige;
+        }
+
+        .custom-bg {
+            background-color: rgb(18, 44, 77);
+        }
+
+        .text-color {
+            color: rgb(216, 228, 216);
+        }
+
+        navbar-brand,
+        .nav-link {
+            color: white;
+            transition: color 0.3s, background-color 0.3s;
+            /* Renk değişimini yumuşak bir şekilde yapmak için geçiş efekti ekledik */
+            padding: 0.5rem 1rem;
+            /* Daha belirgin bir alan oluşturmak için padding ekledik */
+            border-radius: 0.25rem;
+            /* Köşeleri yuvarlamak için border-radius ekledik */
+        }
+
+
+        .navbar-brand:hover,
+        .nav-link:hover {
+            color: rgb(216, 228, 216);
+        }
+
+        .nav-item:hover {
+            background-color: rgb(3, 122, 104);
+            /* Mouse üzerine gelindiğinde linkin etrafındaki kutucuğun rengini değiştiriyoruz */
+            transition: color 0.3s, background-color 0.3s;
+            /* Renk değişimini yumuşak bir şekilde yapmak için geçiş efekti ekledik */
+
+            border-radius: 0.25rem;
+            /* Köşeleri yuvarlamak için border-radius ekledik */
+        }
+        .gg{
+            width: 1200;
+            height: 900;
+        }
+
+
+        .card {
+            width: fit-content;
+            /* İçeriği kadar genişletir */
+            margin: auto;
+            /* Sayfada ortalar */
+            border-collapse: collapse;
+            /* Tablo kenarlarını birleştirir */
+        }
+
+        .card th,
+        .card td {
+            padding: 10px;
+            /* Hücre içeriği ile kenar arasına boşluk bırakır */
+            border: 1px solid black;
+            /* Hücre kenarlarını belirginleştirir */
+            text-align: left;
+            /* İçeriği sola hizalar */
+        }
+
+        .card img {
+            max-width: 100%;
+            /* Resmi hücrenin genişliğine sığdırır */
+            height: auto;
+            /* Oranları koruyarak resmin yüksekliğini ayarlar */
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+        <div class="container-fluid custom-bg text-color">
+            <a class="navbar-brand text-color nav-item" href="../GG_giriş.html">Anasayfa</a>
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-color">
+
+                    <li class="nav-item">
+                        <a class="nav-link text-color" href="iletisim.html">İletişim</a>
+                    </li>
+
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <div class="gg">
+        <table class="card">
+            <th colspan="3" border="5">İletişim Bilgileri</th>
+            <tr>
+
+                <td>Ad Soyad:</td>
+                <td>Göksel Gökcen</td>
+                <td rowspan="3"><img src="GGphoto.png" alt="" width="150" height="200"></td>
+            </tr>
+            <tr>
+                <td>GSM:</td>
+                <td>+90 536 919 3313</td>
+            </tr>
+            <tr>
+                <td>E-Mail:</td>
+                <td>goksel.gokcen0@gmail.com</td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
