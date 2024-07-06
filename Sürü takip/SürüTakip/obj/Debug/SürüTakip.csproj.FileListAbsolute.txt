@@ -1,0 +1,14 @@
+C:\Users\gokse\Desktop\Sürü takip\SürüTakip\bin\Debug\SürüTakip.exe.config
+C:\Users\gokse\Desktop\Sürü takip\SürüTakip\bin\Debug\SürüTakip.exe
+C:\Users\gokse\Desktop\Sürü takip\SürüTakip\bin\Debug\SürüTakip.pdb
+C:\Users\gokse\Desktop\Sürü takip\SürüTakip\obj\Debug\SürüTakip.csproj.AssemblyReference.cache
+C:\Users\gokse\Desktop\Sürü takip\SürüTakip\obj\Debug\SürüTakip.Properties.Resources.resources
+C:\Users\gokse\Desktop\Sürü takip\SürüTakip\obj\Debug\SürüTakip.csproj.GenerateResource.cache
+C:\Users\gokse\Desktop\Sürü takip\SürüTakip\obj\Debug\SürüTakip.csproj.CoreCompileInputs.cache
+C:\Users\gokse\Desktop\Sürü takip\SürüTakip\obj\Debug\SürüTakip.exe
+C:\Users\gokse\Desktop\Sürü takip\SürüTakip\obj\Debug\SürüTakip.pdb
+C:\Users\gokse\Desktop\Sürü takip\SürüTakip\obj\Debug\SürüTakip.MainMenuForm.resources
+C:\Users\gokse\Desktop\Sürü takip\SürüTakip\obj\Debug\SürüTakip.Login.resources
+C:\Users\gokse\Desktop\Sürü takip\SürüTakip\obj\Debug\SürüTakip.addRemove.resources
+C:\Users\gokse\Desktop\Sürü takip\SürüTakip\obj\Debug\SürüTakip.MilkProduction.resources
+C:\Users\gokse\Desktop\Sürü takip\SürüTakip\obj\Debug\SürüTakip.HerdUpdateScreen.resources
