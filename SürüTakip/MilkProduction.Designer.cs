@@ -44,6 +44,10 @@
             this.btnBack = new System.Windows.Forms.Button();
             this.dgv3 = new System.Windows.Forms.DataGridView();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.button1 = new System.Windows.Forms.Button();
+            this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
+            this.lblSum = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgv1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv3)).BeginInit();
@@ -52,7 +56,7 @@
             // dgv1
             // 
             this.dgv1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv1.Location = new System.Drawing.Point(526, 51);
+            this.dgv1.Location = new System.Drawing.Point(431, 51);
             this.dgv1.Margin = new System.Windows.Forms.Padding(4);
             this.dgv1.Name = "dgv1";
             this.dgv1.Size = new System.Drawing.Size(422, 365);
@@ -140,7 +144,7 @@
             // dgv2
             // 
             this.dgv2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv2.Location = new System.Drawing.Point(986, 51);
+            this.dgv2.Location = new System.Drawing.Point(889, 51);
             this.dgv2.Margin = new System.Windows.Forms.Padding(4);
             this.dgv2.Name = "dgv2";
             this.dgv2.Size = new System.Drawing.Size(245, 365);
@@ -190,26 +194,68 @@
             // dgv3
             // 
             this.dgv3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv3.Location = new System.Drawing.Point(1257, 51);
+            this.dgv3.Location = new System.Drawing.Point(1188, 51);
             this.dgv3.Name = "dgv3";
             this.dgv3.Size = new System.Drawing.Size(316, 365);
             this.dgv3.TabIndex = 14;
+            this.dgv3.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv3_CellContentClick);
             // 
             // dateTimePicker2
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(1295, 12);
+            this.dateTimePicker2.Location = new System.Drawing.Point(1176, 12);
             this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(103, 24);
+            this.dateTimePicker2.Size = new System.Drawing.Size(141, 24);
             this.dateTimePicker2.TabIndex = 15;
             this.dateTimePicker2.FormatChanged += new System.EventHandler(this.dateTimePicker2_FormatChanged);
             this.dateTimePicker2.ValueChanged += new System.EventHandler(this.dateTimePicker2_ValueChanged);
             this.dateTimePicker2.FontChanged += new System.EventHandler(this.dateTimePicker2_FontChanged);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(1481, 12);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 16;
+            this.button1.Text = "Ara";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // dateTimePicker3
+            // 
+            this.dateTimePicker3.Location = new System.Drawing.Point(1323, 11);
+            this.dateTimePicker3.Name = "dateTimePicker3";
+            this.dateTimePicker3.Size = new System.Drawing.Size(141, 24);
+            this.dateTimePicker3.TabIndex = 17;
+            this.dateTimePicker3.ValueChanged += new System.EventHandler(this.dateTimePicker3_ValueChanged);
+            // 
+            // lblSum
+            // 
+            this.lblSum.AutoSize = true;
+            this.lblSum.Location = new System.Drawing.Point(1440, 433);
+            this.lblSum.Name = "lblSum";
+            this.lblSum.Size = new System.Drawing.Size(46, 18);
+            this.lblSum.TabIndex = 18;
+            this.lblSum.Text = "label4";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label4.Location = new System.Drawing.Point(1352, 433);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(82, 18);
+            this.label4.TabIndex = 19;
+            this.label4.Text = "Ortalama:";
             // 
             // MilkProduction
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1584, 517);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.lblSum);
+            this.Controls.Add(this.dateTimePicker3);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.dateTimePicker2);
             this.Controls.Add(this.dgv3);
             this.Controls.Add(this.btnBack);
@@ -257,5 +303,9 @@
         private System.Windows.Forms.Button btnBack;
         private System.Windows.Forms.DataGridView dgv3;
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.DateTimePicker dateTimePicker3;
+        private System.Windows.Forms.Label lblSum;
+        private System.Windows.Forms.Label label4;
     }
 }

@@ -43,6 +43,9 @@
             this.lblKuru = new System.Windows.Forms.Label();
             this.dgv2 = new System.Windows.Forms.DataGridView();
             this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
+            this.lblBirthDate = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgv1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv2)).BeginInit();
             this.SuspendLayout();
@@ -176,12 +179,13 @@
             this.dgv2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv2.Location = new System.Drawing.Point(844, 50);
             this.dgv2.Name = "dgv2";
-            this.dgv2.Size = new System.Drawing.Size(557, 561);
+            this.dgv2.Size = new System.Drawing.Size(643, 561);
             this.dgv2.TabIndex = 13;
+            this.dgv2.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dgv2_CellFormatting);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(234, 363);
+            this.button1.Location = new System.Drawing.Point(234, 397);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(129, 33);
             this.button1.TabIndex = 14;
@@ -189,11 +193,45 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button2.Location = new System.Drawing.Point(2, 2);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(114, 33);
+            this.button2.TabIndex = 15;
+            this.button2.Text = "Ana Sayfa";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label7.Location = new System.Drawing.Point(53, 352);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(136, 20);
+            this.label7.TabIndex = 16;
+            this.label7.Text = "Doğurma Tarihi:";
+            this.label7.Click += new System.EventHandler(this.label7_Click_1);
+            // 
+            // lblBirthDate
+            // 
+            this.lblBirthDate.AutoSize = true;
+            this.lblBirthDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblBirthDate.Location = new System.Drawing.Point(231, 354);
+            this.lblBirthDate.Name = "lblBirthDate";
+            this.lblBirthDate.Size = new System.Drawing.Size(0, 18);
+            this.lblBirthDate.TabIndex = 17;
+            // 
             // Breeding
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1413, 623);
+            this.ClientSize = new System.Drawing.Size(1555, 623);
+            this.Controls.Add(this.lblBirthDate);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dgv2);
             this.Controls.Add(this.lblKuru);
@@ -238,5 +276,8 @@
         private System.Windows.Forms.Label lblKuru;
         private System.Windows.Forms.DataGridView dgv2;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label lblBirthDate;
     }
 }

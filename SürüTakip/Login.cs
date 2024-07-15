@@ -19,12 +19,12 @@ namespace SürüTakip
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MainMenuForm MainMenuForm = new MainMenuForm();
+            MainMenuForm menu = new MainMenuForm();
 
-            
 
+            menu.Show();
             this.Hide();
-            MainMenuForm.Show();
+            
 
 
 

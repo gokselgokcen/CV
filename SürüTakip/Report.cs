@@ -109,6 +109,15 @@ namespace SürüTakip
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MainMenuForm frm = new MainMenuForm();
+
+            frm.Show();
+            this.Close();
+
+        }
     }
 }
 

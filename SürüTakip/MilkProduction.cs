@@ -5,6 +5,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.InteropServices.ComTypes;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -16,18 +17,21 @@ namespace SürüTakip
         public MilkProduction()
         {
             InitializeComponent();
+          
+            
         }
 
         private void MilkProduction_Load(object sender, EventArgs e)
         {
             LoadData();
             //LoadDataMilk();
-            dateTimePicker2.Format = DateTimePickerFormat.Custom;
-            dateTimePicker2.CustomFormat = "MM/yyyy";
-            dateTimePicker2.ShowUpDown = true; // Yukarı aşağı okları göster
-            LoadMonthData();
+            //dateTimePicker2.Format = DateTimePickerFormat.Custom;
+            //dateTimePicker2.CustomFormat = "MM/yyyy";
+            //dateTimePicker2.ShowUpDown = true; // Yukarı aşağı okları göster
+            // LoadMonthData();
 
-
+            label2.Visible = false;
+            lblID.Visible = false;
         }
 
         private void LoadMonthData()
@@ -36,23 +40,26 @@ namespace SürüTakip
             SqlConnection conn = new SqlConnection(connectionString);
             conn.Open();
 
-            // Seçilen ayın başlangıç ve bitiş tarihlerini al
-            DateTime selectedDate = new DateTime(dateTimePicker1.Value.Year, dateTimePicker1.Value.Month, 1);
-           
             
+            DateTime startDate = dateTimePicker2.Value.AddDays(-1);
+            DateTime endDate = dateTimePicker3.Value.AddDays(1);
 
 
-            SqlDataAdapter da = new SqlDataAdapter(@"SELECT EarTagNumber AS KulakNo, ProductionDate AS Tarih ,MilkQuantity AS Litre  
-                                             FROM dbo.MilkProduction 
-                                             WHERE  ProductionDate = @selectedDate
-                                             GROUP BY EarTagNumber, ProductionDate, MilkQuantity", conn);
-            
-            da.SelectCommand.Parameters.AddWithValue("@selectedDate", selectedDate);
-            
+
+
+
+            SqlDataAdapter da = new SqlDataAdapter(@"SELECT EarTagNumber AS KulakNo, ProductionDate AS Tarih, MilkQuantity AS Litre  
+                     FROM dbo.MilkProduction 
+                     WHERE ProductionDate >= @startDate AND ProductionDate < @endDate", conn);
+
+            da.SelectCommand.Parameters.AddWithValue("@startDate", startDate);
+            da.SelectCommand.Parameters.AddWithValue("@endDate", endDate);
 
             DataTable dt = new DataTable();
             da.Fill(dt);
             dgv3.DataSource = dt;
+
+            conn.Close();
         }
 
         private void LoadData()
@@ -172,6 +179,36 @@ namespace SürüTakip
             this.Close();
 
         }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //dgv3.Rows.Clear();
+            LoadMonthData();
+            CalculateMilk();
+        }
+
+        private void CalculateMilk()
+        {
+            DataTable dt = (DataTable)dgv3.DataSource;
+            string columnName = "Litre";
+
+            double sum = 0;
+            int count = 0;
+
+            foreach(DataRow row in dt.Rows)
+            {
+                if (row[columnName] != DBNull.Value)
+                {
+                    sum += Convert.ToDouble(row[columnName]);
+                    count++;
+                }
+            }
+            double average = sum / count;
+            lblSum.Visible = true;
+
+            lblSum.Text = average.ToString();
+
+
+        }
 
         private void dateTimePicker2_ValueChanged(object sender, EventArgs e)
         {
@@ -186,6 +223,18 @@ namespace SürüTakip
         private void dateTimePicker2_FormatChanged(object sender, EventArgs e)
         {
             
+        }
+
+       
+
+        private void dgv3_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void dateTimePicker3_ValueChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

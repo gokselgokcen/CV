@@ -170,5 +170,14 @@ namespace SürüTakip
 
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            addRemove frm = new addRemove();
+
+            frm.Show();
+            this.Close();
+
+        }
     }
 }

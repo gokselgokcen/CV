@@ -44,6 +44,8 @@ namespace SürüTakip
         {
             LoadData();
             LoadBreedData();
+           
+            
 
         }
 
@@ -79,9 +81,12 @@ namespace SürüTakip
             DateTime checkDate = selectedDate.AddDays(60);
             lblCheck.Text = checkDate.ToString("dd.MM.yyyy");
 
-            DateTime Sd = dateTimePicker1.Value;
-            DateTime KuruDate = Sd.AddDays(210);
+            DateTime KuruDate = selectedDate.AddDays(210);
             lblKuru.Text = KuruDate.ToString("dd.MM.yyyy");
+
+           
+            DateTime BirthDate = selectedDate.AddDays(280);
+            lblBirthDate.Text = BirthDate.ToString("dd.MM.yyyy");
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -90,8 +95,8 @@ namespace SürüTakip
             SqlConnection conn = new SqlConnection(connectionString);
             conn.Open();
 
-            SqlCommand cmd = new SqlCommand("INSERT INTO dbo.Breed (CattleID,EarTagNumber,Name,BreedDate,CheckDate,KuruDate) " +
-               "VALUES (@id,@kulak,@name,@breed,@check,@kuru) ", conn);
+            SqlCommand cmd = new SqlCommand("INSERT INTO dbo.Breed (CattleID,EarTagNumber,Name,BreedDate,CheckDate,KuruDate,BirthDate) " +
+               "VALUES (@id,@kulak,@name,@breed,@check,@kuru,@birth) ", conn);
 
             
             if(string.IsNullOrWhiteSpace(lblCheck.Text))
@@ -107,6 +112,7 @@ namespace SürüTakip
                 cmd.Parameters.AddWithValue("@breed", dateTimePicker1.Value);
                 cmd.Parameters.AddWithValue("@check", DateTime.Parse(lblCheck.Text));
                 cmd.Parameters.AddWithValue("@kuru", DateTime.Parse(lblKuru.Text));
+                cmd.Parameters.AddWithValue("birth", DateTime.Parse(lblBirthDate.Text));
                 cmd.ExecuteNonQuery();
                 LoadBreedData();
 
@@ -128,7 +134,7 @@ namespace SürüTakip
             SqlConnection conn = new SqlConnection(connectionString);
             conn.Open();
 
-            SqlDataAdapter da = new SqlDataAdapter("SELECT EarTagNumber,Name,BreedDate,CheckDate,KuruDate  FROM dbo.Breed", conn);
+            SqlDataAdapter da = new SqlDataAdapter("SELECT EarTagNumber,Name,BreedDate,CheckDate,KuruDate,BirthDate  FROM dbo.Breed", conn);
             //dgv1.Columns.Clear();
             DataTable dt = new DataTable();
             da.Fill(dt);
@@ -139,9 +145,29 @@ namespace SürüTakip
             dgv2.Columns[2].HeaderText = "Tohumlama";
             dgv2.Columns[3].HeaderText = "Kontrol";
             dgv2.Columns[4].HeaderText = "Kuru";
+            dgv2.Columns[5].HeaderText = "Doğum";
 
             conn.Close();
             //LoadData();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MainMenuForm frm = new MainMenuForm();
+
+            frm.Show();
+            this.Close();
+        }
+
+        private void label7_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dgv2_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
+        {
+           
+
         }
     }
 }
