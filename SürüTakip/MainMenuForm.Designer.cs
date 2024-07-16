@@ -69,11 +69,11 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(285, 345);
+            this.button5.Location = new System.Drawing.Point(647, 336);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(240, 94);
             this.button5.TabIndex = 4;
-            this.button5.Text = "Raporlama";
+            this.button5.Text = "Sürü";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
@@ -90,6 +90,7 @@
             this.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.Name = "MainMenuForm";
             this.Text = "Ana Menü";
+            this.Load += new System.EventHandler(this.MainMenuForm_Load);
             this.ResumeLayout(false);
 
         }

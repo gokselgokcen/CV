@@ -48,5 +48,10 @@ namespace SürüTakip
             this.Close();
 
         }
+
+        private void MainMenuForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

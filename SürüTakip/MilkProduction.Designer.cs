@@ -48,6 +48,8 @@
             this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
             this.lblSum = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.txtSearch = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgv1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv3)).BeginInit();
@@ -59,7 +61,7 @@
             this.dgv1.Location = new System.Drawing.Point(431, 51);
             this.dgv1.Margin = new System.Windows.Forms.Padding(4);
             this.dgv1.Name = "dgv1";
-            this.dgv1.Size = new System.Drawing.Size(422, 365);
+            this.dgv1.Size = new System.Drawing.Size(361, 365);
             this.dgv1.TabIndex = 0;
             this.dgv1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv1_CellClick);
             // 
@@ -144,7 +146,7 @@
             // dgv2
             // 
             this.dgv2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv2.Location = new System.Drawing.Point(889, 51);
+            this.dgv2.Location = new System.Drawing.Point(818, 51);
             this.dgv2.Margin = new System.Windows.Forms.Padding(4);
             this.dgv2.Name = "dgv2";
             this.dgv2.Size = new System.Drawing.Size(245, 365);
@@ -194,15 +196,15 @@
             // dgv3
             // 
             this.dgv3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv3.Location = new System.Drawing.Point(1188, 51);
+            this.dgv3.Location = new System.Drawing.Point(1088, 51);
             this.dgv3.Name = "dgv3";
-            this.dgv3.Size = new System.Drawing.Size(316, 365);
+            this.dgv3.Size = new System.Drawing.Size(446, 365);
             this.dgv3.TabIndex = 14;
             this.dgv3.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv3_CellContentClick);
             // 
             // dateTimePicker2
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(1176, 12);
+            this.dateTimePicker2.Location = new System.Drawing.Point(1105, 12);
             this.dateTimePicker2.Name = "dateTimePicker2";
             this.dateTimePicker2.Size = new System.Drawing.Size(141, 24);
             this.dateTimePicker2.TabIndex = 15;
@@ -212,7 +214,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(1481, 12);
+            this.button1.Location = new System.Drawing.Point(1410, 12);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 16;
@@ -222,7 +224,7 @@
             // 
             // dateTimePicker3
             // 
-            this.dateTimePicker3.Location = new System.Drawing.Point(1323, 11);
+            this.dateTimePicker3.Location = new System.Drawing.Point(1252, 11);
             this.dateTimePicker3.Name = "dateTimePicker3";
             this.dateTimePicker3.Size = new System.Drawing.Size(141, 24);
             this.dateTimePicker3.TabIndex = 17;
@@ -231,27 +233,46 @@
             // lblSum
             // 
             this.lblSum.AutoSize = true;
-            this.lblSum.Location = new System.Drawing.Point(1440, 433);
+            this.lblSum.Location = new System.Drawing.Point(1369, 433);
             this.lblSum.Name = "lblSum";
-            this.lblSum.Size = new System.Drawing.Size(46, 18);
+            this.lblSum.Size = new System.Drawing.Size(0, 18);
             this.lblSum.TabIndex = 18;
-            this.lblSum.Text = "label4";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.Location = new System.Drawing.Point(1352, 433);
+            this.label4.Location = new System.Drawing.Point(1281, 433);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(82, 18);
             this.label4.TabIndex = 19;
             this.label4.Text = "Ortalama:";
             // 
+            // txtSearch
+            // 
+            this.txtSearch.Location = new System.Drawing.Point(483, 18);
+            this.txtSearch.Name = "txtSearch";
+            this.txtSearch.Size = new System.Drawing.Size(117, 24);
+            this.txtSearch.TabIndex = 20;
+            this.txtSearch.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label7.Location = new System.Drawing.Point(432, 21);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(45, 18);
+            this.label7.TabIndex = 21;
+            this.label7.Text = "ARA:";
+            // 
             // MilkProduction
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1584, 517);
+            this.ClientSize = new System.Drawing.Size(1556, 517);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.txtSearch);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.lblSum);
             this.Controls.Add(this.dateTimePicker3);
@@ -307,5 +328,7 @@
         private System.Windows.Forms.DateTimePicker dateTimePicker3;
         private System.Windows.Forms.Label lblSum;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox txtSearch;
+        private System.Windows.Forms.Label label7;
     }
 }

@@ -7,10 +7,6 @@
       "RelativeMoniker": "D:0:0:{5457A4F3-8C23-40EA-A893-7EF20E6603F0}|S\u00FCr\u00FCTakip.csproj|solutionrelative:breeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5457A4F3-8C23-40EA-A893-7EF20E6603F0}|S\u00FCr\u00FCTakip.csproj|C:\\Users\\gokse\\Desktop\\S\u00FCr\u00FC takip\\S\u00FCr\u00FCTakip\\mainmenuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5457A4F3-8C23-40EA-A893-7EF20E6603F0}|S\u00FCr\u00FCTakip.csproj|solutionrelative:mainmenuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5457A4F3-8C23-40EA-A893-7EF20E6603F0}|S\u00FCr\u00FCTakip.csproj|C:\\Users\\gokse\\Desktop\\S\u00FCr\u00FC takip\\S\u00FCr\u00FCTakip\\breeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5457A4F3-8C23-40EA-A893-7EF20E6603F0}|S\u00FCr\u00FCTakip.csproj|solutionrelative:breeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -19,24 +15,32 @@
       "RelativeMoniker": "D:0:0:{5457A4F3-8C23-40EA-A893-7EF20E6603F0}|S\u00FCr\u00FCTakip.csproj|solutionrelative:milkproduction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5457A4F3-8C23-40EA-A893-7EF20E6603F0}|S\u00FCr\u00FCTakip.csproj|C:\\Users\\gokse\\Desktop\\S\u00FCr\u00FC takip\\S\u00FCr\u00FCTakip\\mainmenuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5457A4F3-8C23-40EA-A893-7EF20E6603F0}|S\u00FCr\u00FCTakip.csproj|solutionrelative:mainmenuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5457A4F3-8C23-40EA-A893-7EF20E6603F0}|S\u00FCr\u00FCTakip.csproj|C:\\Users\\gokse\\Desktop\\S\u00FCr\u00FC takip\\S\u00FCr\u00FCTakip\\addremove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5457A4F3-8C23-40EA-A893-7EF20E6603F0}|S\u00FCr\u00FCTakip.csproj|solutionrelative:addremove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5457A4F3-8C23-40EA-A893-7EF20E6603F0}|S\u00FCr\u00FCTakip.csproj|C:\\Users\\gokse\\Desktop\\S\u00FCr\u00FC takip\\S\u00FCr\u00FCTakip\\milkproduction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5457A4F3-8C23-40EA-A893-7EF20E6603F0}|S\u00FCr\u00FCTakip.csproj|solutionrelative:milkproduction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5457A4F3-8C23-40EA-A893-7EF20E6603F0}|S\u00FCr\u00FCTakip.csproj|C:\\Users\\gokse\\Desktop\\S\u00FCr\u00FC takip\\S\u00FCr\u00FCTakip\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5457A4F3-8C23-40EA-A893-7EF20E6603F0}|S\u00FCr\u00FCTakip.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5457A4F3-8C23-40EA-A893-7EF20E6603F0}|S\u00FCr\u00FCTakip.csproj|C:\\Users\\gokse\\Desktop\\S\u00FCr\u00FC takip\\S\u00FCr\u00FCTakip\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5457A4F3-8C23-40EA-A893-7EF20E6603F0}|S\u00FCr\u00FCTakip.csproj|solutionrelative:report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5457A4F3-8C23-40EA-A893-7EF20E6603F0}|S\u00FCr\u00FCTakip.csproj|C:\\Users\\gokse\\Desktop\\S\u00FCr\u00FC takip\\S\u00FCr\u00FCTakip\\herdupdatescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5457A4F3-8C23-40EA-A893-7EF20E6603F0}|S\u00FCr\u00FCTakip.csproj|solutionrelative:herdupdatescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5457A4F3-8C23-40EA-A893-7EF20E6603F0}|S\u00FCr\u00FCTakip.csproj|C:\\Users\\gokse\\Desktop\\S\u00FCr\u00FC takip\\S\u00FCr\u00FCTakip\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5457A4F3-8C23-40EA-A893-7EF20E6603F0}|S\u00FCr\u00FCTakip.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5457A4F3-8C23-40EA-A893-7EF20E6603F0}|S\u00FCr\u00FCTakip.csproj|C:\\Users\\gokse\\Desktop\\S\u00FCr\u00FC takip\\S\u00FCr\u00FCTakip\\addremove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5457A4F3-8C23-40EA-A893-7EF20E6603F0}|S\u00FCr\u00FCTakip.csproj|solutionrelative:addremove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5457A4F3-8C23-40EA-A893-7EF20E6603F0}|S\u00FCr\u00FCTakip.csproj|C:\\Users\\gokse\\Desktop\\S\u00FCr\u00FC takip\\S\u00FCr\u00FCTakip\\mainmenuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5457A4F3-8C23-40EA-A893-7EF20E6603F0}|S\u00FCr\u00FCTakip.csproj|solutionrelative:mainmenuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5457A4F3-8C23-40EA-A893-7EF20E6603F0}|S\u00FCr\u00FCTakip.csproj|C:\\Users\\gokse\\Desktop\\S\u00FCr\u00FC takip\\S\u00FCr\u00FCTakip\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5457A4F3-8C23-40EA-A893-7EF20E6603F0}|S\u00FCr\u00FCTakip.csproj|solutionrelative:report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5457A4F3-8C23-40EA-A893-7EF20E6603F0}|S\u00FCr\u00FCTakip.csproj|C:\\Users\\gokse\\Desktop\\S\u00FCr\u00FC takip\\S\u00FCr\u00FCTakip\\herdupdatescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -54,11 +58,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "MainMenuForm.cs [Tasar\u0131m]",
               "DocumentMoniker": "C:\\Users\\gokse\\Desktop\\S\u00FCr\u00FC takip\\S\u00FCr\u00FCTakip\\MainMenuForm.cs",
               "RelativeDocumentMoniker": "MainMenuForm.cs",
@@ -75,26 +79,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\gokse\\Desktop\\S\u00FCr\u00FC takip\\S\u00FCr\u00FCTakip\\Login.cs",
-              "RelativeDocumentMoniker": "Login.cs",
-              "ToolTip": "C:\\Users\\gokse\\Desktop\\S\u00FCr\u00FC takip\\S\u00FCr\u00FCTakip\\Login.cs",
-              "RelativeToolTip": "Login.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAQwBoAAAAMAAAA",
+              "DocumentIndex": 4,
+              "Title": "addRemove.cs",
+              "DocumentMoniker": "C:\\Users\\gokse\\Desktop\\S\u00FCr\u00FC takip\\S\u00FCr\u00FCTakip\\addRemove.cs",
+              "RelativeDocumentMoniker": "addRemove.cs",
+              "ToolTip": "C:\\Users\\gokse\\Desktop\\S\u00FCr\u00FC takip\\S\u00FCr\u00FCTakip\\addRemove.cs",
+              "RelativeToolTip": "addRemove.cs",
+              "ViewState": "AQIAAHEAAAAAAAAAAAAMwK8AAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T10:57:11.493Z"
+              "WhenOpened": "2024-07-16T11:04:45.189Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Login.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\gokse\\Desktop\\S\u00FCr\u00FC takip\\S\u00FCr\u00FCTakip\\Login.cs",
-              "RelativeDocumentMoniker": "Login.cs",
-              "ToolTip": "C:\\Users\\gokse\\Desktop\\S\u00FCr\u00FC takip\\S\u00FCr\u00FCTakip\\Login.cs [Tasar\u0131m]",
-              "RelativeToolTip": "Login.cs [Tasar\u0131m]",
+              "DocumentIndex": 7,
+              "Title": "addRemove.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\gokse\\Desktop\\S\u00FCr\u00FC takip\\S\u00FCr\u00FCTakip\\addRemove.cs",
+              "RelativeDocumentMoniker": "addRemove.cs",
+              "ToolTip": "C:\\Users\\gokse\\Desktop\\S\u00FCr\u00FC takip\\S\u00FCr\u00FCTakip\\addRemove.cs [Tasar\u0131m]",
+              "RelativeToolTip": "addRemove.cs [Tasar\u0131m]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T10:57:10.211Z"
+              "WhenOpened": "2024-07-16T11:04:34.128Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainMenuForm.cs",
+              "DocumentMoniker": "C:\\Users\\gokse\\Desktop\\S\u00FCr\u00FC takip\\S\u00FCr\u00FCTakip\\MainMenuForm.cs",
+              "RelativeDocumentMoniker": "MainMenuForm.cs",
+              "ToolTip": "C:\\Users\\gokse\\Desktop\\S\u00FCr\u00FC takip\\S\u00FCr\u00FCTakip\\MainMenuForm.cs",
+              "RelativeToolTip": "MainMenuForm.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAjwDUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T11:02:35.468Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -102,52 +121,53 @@
               "Title": "Breeding.cs",
               "DocumentMoniker": "C:\\Users\\gokse\\Desktop\\S\u00FCr\u00FC takip\\S\u00FCr\u00FCTakip\\Breeding.cs",
               "RelativeDocumentMoniker": "Breeding.cs",
-              "ToolTip": "C:\\Users\\gokse\\Desktop\\S\u00FCr\u00FC takip\\S\u00FCr\u00FCTakip\\Breeding.cs*",
-              "RelativeToolTip": "Breeding.cs*",
-              "ViewState": "AQIAALcAAAAAAAAAAAAkwNAAAAANAAAA",
+              "ToolTip": "C:\\Users\\gokse\\Desktop\\S\u00FCr\u00FC takip\\S\u00FCr\u00FCTakip\\Breeding.cs",
+              "RelativeToolTip": "Breeding.cs",
+              "ViewState": "AQIAAHwAAAAAAAAAAAAnwJgAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-12T10:55:20.492Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Breeding.cs [Tasar\u0131m]",
               "DocumentMoniker": "C:\\Users\\gokse\\Desktop\\S\u00FCr\u00FC takip\\S\u00FCr\u00FCTakip\\Breeding.cs",
               "RelativeDocumentMoniker": "Breeding.cs",
-              "ToolTip": "C:\\Users\\gokse\\Desktop\\S\u00FCr\u00FC takip\\S\u00FCr\u00FCTakip\\Breeding.cs [Tasar\u0131m]*",
-              "RelativeToolTip": "Breeding.cs [Tasar\u0131m]*",
+              "ToolTip": "C:\\Users\\gokse\\Desktop\\S\u00FCr\u00FC takip\\S\u00FCr\u00FCTakip\\Breeding.cs [Tasar\u0131m]",
+              "RelativeToolTip": "Breeding.cs [Tasar\u0131m]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-12T10:54:47.293Z",
               "EditorCaption": " [Tasar\u0131m]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "MilkProduction.cs",
               "DocumentMoniker": "C:\\Users\\gokse\\Desktop\\S\u00FCr\u00FC takip\\S\u00FCr\u00FCTakip\\MilkProduction.cs",
               "RelativeDocumentMoniker": "MilkProduction.cs",
               "ToolTip": "C:\\Users\\gokse\\Desktop\\S\u00FCr\u00FC takip\\S\u00FCr\u00FCTakip\\MilkProduction.cs",
               "RelativeToolTip": "MilkProduction.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAowCEAAAAiAAAA",
+              "ViewState": "AQIAADIBAAAAAAAAAAAtwEYBAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-11T14:23:24.513Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "MilkProduction.cs [Tasar\u0131m]",
               "DocumentMoniker": "C:\\Users\\gokse\\Desktop\\S\u00FCr\u00FC takip\\S\u00FCr\u00FCTakip\\MilkProduction.cs",
               "RelativeDocumentMoniker": "MilkProduction.cs",
               "ToolTip": "C:\\Users\\gokse\\Desktop\\S\u00FCr\u00FC takip\\S\u00FCr\u00FCTakip\\MilkProduction.cs [Tasar\u0131m]",
               "RelativeToolTip": "MilkProduction.cs [Tasar\u0131m]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T14:23:21.009Z"
+              "WhenOpened": "2024-07-11T14:23:21.009Z",
+              "EditorCaption": " [Tasar\u0131m]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "HerdUpdateScreen.cs",
               "DocumentMoniker": "C:\\Users\\gokse\\Desktop\\S\u00FCr\u00FC takip\\S\u00FCr\u00FCTakip\\HerdUpdateScreen.cs",
               "RelativeDocumentMoniker": "HerdUpdateScreen.cs",
@@ -155,22 +175,24 @@
               "RelativeToolTip": "HerdUpdateScreen.cs",
               "ViewState": "AQIAAKIAAAAAAAAAAAAiwLQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T14:11:12.465Z"
+              "WhenOpened": "2024-07-11T14:11:12.465Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "HerdUpdateScreen.cs [Tasar\u0131m]",
               "DocumentMoniker": "C:\\Users\\gokse\\Desktop\\S\u00FCr\u00FC takip\\S\u00FCr\u00FCTakip\\HerdUpdateScreen.cs",
               "RelativeDocumentMoniker": "HerdUpdateScreen.cs",
               "ToolTip": "C:\\Users\\gokse\\Desktop\\S\u00FCr\u00FC takip\\S\u00FCr\u00FCTakip\\HerdUpdateScreen.cs [Tasar\u0131m]",
               "RelativeToolTip": "HerdUpdateScreen.cs [Tasar\u0131m]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T14:11:11.164Z"
+              "WhenOpened": "2024-07-11T14:11:11.164Z",
+              "EditorCaption": " [Tasar\u0131m]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Report.cs",
               "DocumentMoniker": "C:\\Users\\gokse\\Desktop\\S\u00FCr\u00FC takip\\S\u00FCr\u00FCTakip\\Report.cs",
               "RelativeDocumentMoniker": "Report.cs",
@@ -182,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Report.cs [Tasar\u0131m]",
               "DocumentMoniker": "C:\\Users\\gokse\\Desktop\\S\u00FCr\u00FC takip\\S\u00FCr\u00FCTakip\\Report.cs",
               "RelativeDocumentMoniker": "Report.cs",

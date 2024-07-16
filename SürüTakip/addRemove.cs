@@ -202,18 +202,18 @@ namespace SürüTakip
             conn.Open();
 
             // SqlCommand cmd = new SqlCommand("SELECT * FROM dbo.CATTLE");
-            SqlDataAdapter da = new SqlDataAdapter("SELECT CattleID, EarTagNumber,Name,Gender,Breed,Birthdate  FROM dbo.CATTLE WHERE EarTagNumber LIKE @no ", conn);
+            SqlDataAdapter da = new SqlDataAdapter("SELECT  EarTagNumber,Name,Gender,Breed,Birthdate  FROM dbo.CATTLE WHERE EarTagNumber LIKE @no ", conn);
             da.SelectCommand.Parameters.AddWithValue("@no", "%" + txtSearch.Text + "%");
             dgv1.Columns.Clear();
             DataTable dt = new DataTable();
             da.Fill(dt);
             dgv1.DataSource = dt;
-            dgv1.Columns[0].HeaderText = "ID";
-            dgv1.Columns[1].HeaderText = "Kulak No";
-            dgv1.Columns[2].HeaderText = "Adı";
-            dgv1.Columns[3].HeaderText = "Cinsi";
-            dgv1.Columns[4].HeaderText = "Irkı";
-            dgv1.Columns[5].HeaderText = "Doğum Tarihi";
+            //dgv1.Columns[0].HeaderText = "ID";
+            dgv1.Columns[0].HeaderText = "Kulak No";
+            dgv1.Columns[1].HeaderText = "Adı";
+            dgv1.Columns[2].HeaderText = "Cinsi";
+            dgv1.Columns[3].HeaderText = "Irkı";
+            dgv1.Columns[4].HeaderText = "Doğum Tarihi";
             AddDeleteButtonColumn();
 
         }

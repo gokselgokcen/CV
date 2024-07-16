@@ -186,7 +186,7 @@
             // 
             // txtSearch
             // 
-            this.txtSearch.Location = new System.Drawing.Point(544, 14);
+            this.txtSearch.Location = new System.Drawing.Point(459, 14);
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.Size = new System.Drawing.Size(112, 24);
             this.txtSearch.TabIndex = 18;
@@ -195,7 +195,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(493, 17);
+            this.label8.Location = new System.Drawing.Point(408, 17);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(45, 18);
             this.label8.TabIndex = 19;

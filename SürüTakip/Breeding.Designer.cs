@@ -46,6 +46,9 @@
             this.button2 = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.lblBirthDate = new System.Windows.Forms.Label();
+            this.txtSearch = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgv1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv2)).BeginInit();
             this.SuspendLayout();
@@ -179,9 +182,11 @@
             this.dgv2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv2.Location = new System.Drawing.Point(844, 50);
             this.dgv2.Name = "dgv2";
-            this.dgv2.Size = new System.Drawing.Size(643, 561);
+            this.dgv2.Size = new System.Drawing.Size(854, 561);
             this.dgv2.TabIndex = 13;
+            this.dgv2.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv2_CellContentClick);
             this.dgv2.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dgv2_CellFormatting);
+            this.dgv2.Sorted += new System.EventHandler(this.dgv2_Sorted);
             // 
             // button1
             // 
@@ -224,11 +229,42 @@
             this.lblBirthDate.Size = new System.Drawing.Size(0, 18);
             this.lblBirthDate.TabIndex = 17;
             // 
+            // txtSearch
+            // 
+            this.txtSearch.Location = new System.Drawing.Point(596, 20);
+            this.txtSearch.Name = "txtSearch";
+            this.txtSearch.Size = new System.Drawing.Size(100, 24);
+            this.txtSearch.TabIndex = 18;
+            this.txtSearch.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label8.Location = new System.Drawing.Point(544, 23);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(45, 18);
+            this.label8.TabIndex = 19;
+            this.label8.Text = "ARA:";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(841, 614);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(501, 18);
+            this.label9.TabIndex = 20;
+            this.label9.Text = "1 Hafta kala sarı yanmaya başlar.Son 3 gün içinde KIRMIZI yanmaya başlar.";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
+            // 
             // Breeding
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1555, 623);
+            this.ClientSize = new System.Drawing.Size(1710, 657);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.txtSearch);
             this.Controls.Add(this.lblBirthDate);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.button2);
@@ -279,5 +315,8 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label lblBirthDate;
+        private System.Windows.Forms.TextBox txtSearch;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
     }
 }
